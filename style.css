@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url(myimg.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#expense-form {
+    margin-bottom: 20px;
+}
+
+#expenses-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#expenses-table th, #expenses-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#expenses-table th {
+    background-color: #f0f0f0;
+}
+
+#expenses-table td:nth-child(4) {
+    text-align: right;
+}
+
+
+.track{
+    color: black;
+}
